@@ -1,0 +1,15 @@
+<%= error_messages_for :image %>
+
+<% form_for(:image, :url => order_image_path(@order, @image_pack_type, @image), :html => { :method => :put, :multipart => true }) do |f| %>
+  <table class="basic-table">
+    <tr>
+      <td><%= t("thumbnail") %>:</td>
+      <td><%= link_to(image_tag(@image.attachment.url(:small)), @image.attachment.url(:original)) %></td>
+    </tr>
+    <%= render :partial => "form", :locals => { :f => f } %>
+  </table>
+  <p class="form-buttons">
+    <%= button t("upload") %>
+    or <%= link_to t("cancel"), order_images_path(@order, @image_pack_type), :id => "cancel_link" %>
+  </p>
+<% end %>

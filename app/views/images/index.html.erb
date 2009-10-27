@@ -1,0 +1,48 @@
+<h1> <%= t(@image_pack_type) %> </h1>
+
+<table class="index">
+  <tr>
+    <th><%= t("thumbnail") %></th>
+    <th><%= t("notes") %></th>
+    <th><%= t("action") %></th>
+  </tr>
+
+  <% @images.each do |image| %>
+    <tr id="<%= dom_id(image) %>">
+      <td><%= link_to(image_tag(image.attachment.url(:small)), image.attachment.url(:original)) %></td>
+      <td><%= image.notes %></td>
+      <td class="actions">
+        <%= link_to_with_icon('edit', t("edit"), edit_order_image_url(@order, @image_pack_type, image)) %>
+        &nbsp;
+        <%= link_to_delete image, {:url => order_image_url(@order, @image_pack_type, image) } %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<div id="images"></div>
+<br />
+<% if @image_pack_type == "user_images" || current_user.has_role?('admin') %>
+  <p>
+    <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order, @image_pack_type), :id => "new_image_link" %>
+  </p>
+<% end %>
+
+<% content_for :head do %>
+
+  <%= javascript_tag "var AUTH_TOKEN = #{form_authenticity_token.inspect};" if protect_against_forgery? %>
+
+  <script type="text/javascript">
+    jQuery(document).ready(function() {
+
+      jQuery('#new_image_link').click(function (event) {
+        event.preventDefault();
+        jQuery(this).hide();
+        jQuery.ajax({type: 'GET', url: this.href, data: ({authenticity_token: AUTH_TOKEN}), success: function(r) {
+          jQuery('#images').html(r);
+        } });
+      });
+
+    });
+  </script>
+<% end %>

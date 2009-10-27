@@ -1,0 +1,12 @@
+<% if @image_pack_type == "user_images" || current_user.has_role?('admin') %>
+  <tr>
+    <td><%= t("filename") %>:</td>
+    <td><%= f.file_field :attachment %></td>
+  </tr>
+<% end %>
+<tr>
+  <td><%= t("notes") %>:</td>
+  <td><%= f.text_area :notes %></td>
+</tr>
+
+<%= hidden_field_tag :image_pack_id, @image_pack.id %>
