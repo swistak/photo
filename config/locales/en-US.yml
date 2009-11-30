@@ -1,0 +1,10 @@
+en-US:
+  modifier: Modifier
+  create_variants: Create variants from option types
+  photo_required: User photography required?
+  faces: Number of faces
+  size: Size
+  clone: Clone
+  actions:
+    create_another: Create. Then create another
+  here: Here
