@@ -1,0 +1,925 @@
+--- 
+variants_080: 
+  price: "200"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528118"
+  is_master: f
+  sku: SMP-3
+  height: 
+  width: 
+variants_078: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528116"
+  is_master: f
+  sku: SMP-1
+  height: 
+  width: 
+variants_015: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528053"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_036: 
+  price: "120"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528074"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_057: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528095"
+  is_master: f
+  sku: SMP-1
+  height: 
+  width: 
+variants_081: 
+  price: "115"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528119"
+  is_master: f
+  sku: SMP-4
+  height: 
+  width: 
+variants_079: 
+  price: "187"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528117"
+  is_master: f
+  sku: SMP-2
+  height: 
+  width: 
+variants_016: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528054"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_037: 
+  price: "207"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528075"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_060: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528098"
+  is_master: f
+  sku: SMP-4
+  height: 
+  width: 
+variants_058: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528096"
+  is_master: f
+  sku: SMP-2
+  height: 
+  width: 
+variants_082: 
+  price: "202"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528120"
+  is_master: f
+  sku: SMP-5
+  height: 
+  width: 
+variants_017: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528055"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_040: 
+  price: "222"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528078"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_038: 
+  price: "220"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528076"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_061: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528099"
+  is_master: f
+  sku: SMP-5
+  height: 
+  width: 
+variants_059: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528097"
+  is_master: f
+  sku: SMP-3
+  height: 
+  width: 
+variants_083: 
+  price: "215"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528121"
+  is_master: f
+  sku: SMP-6
+  height: 
+  width: 
+variants_020: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528058"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_018: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528056"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_041: 
+  price: "235"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528079"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_039: 
+  price: "135"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528077"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_062: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528100"
+  is_master: f
+  sku: SMP-6
+  height: 
+  width: 
+variants_084: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242445"
+  id: "2099528122"
+  is_master: t
+  sku: SMP
+  height: 
+  width: 
+variants_021: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528059"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_019: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242436"
+  id: "2099528057"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_042: 
+  price: "120"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242439"
+  id: "2099528080"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_063: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242442"
+  id: "2099528101"
+  is_master: t
+  sku: SMP
+  height: 
+  width: 
+variants_022: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528060"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_043: 
+  price: "120"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528081"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_064: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528102"
+  is_master: f
+  sku: SMP-1
+  height: 
+  width: 
+variants_044: 
+  price: "207"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528082"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_065: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528103"
+  is_master: f
+  sku: SMP-2
+  height: 
+  width: 
+variants_001: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528039"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_066: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528104"
+  is_master: f
+  sku: SMP-3
+  height: 
+  width: 
+variants_002: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528040"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_023: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528061"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_003: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528041"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_024: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528062"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_045: 
+  price: "220"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528083"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_067: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528105"
+  is_master: f
+  sku: SMP-4
+  height: 
+  width: 
+variants_004: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528042"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_025: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528063"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_046: 
+  price: "135"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528084"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_070: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528108"
+  is_master: t
+  sku: SMP
+  height: 
+  width: 
+variants_068: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528106"
+  is_master: f
+  sku: SMP-5
+  height: 
+  width: 
+variants_005: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528043"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_026: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528064"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_047: 
+  price: "222"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528085"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_071: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528109"
+  is_master: f
+  sku: SMP-1
+  height: 
+  width: 
+variants_069: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242443"
+  id: "2099528107"
+  is_master: f
+  sku: SMP-6
+  height: 
+  width: 
+variants_006: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528044"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_027: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528065"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_050: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528088"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_048: 
+  price: "235"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528086"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_072: 
+  price: "187"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528110"
+  is_master: f
+  sku: SMP-2
+  height: 
+  width: 
+variants_007: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242434"
+  id: "2099528045"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_030: 
+  price: "197"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528068"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_028: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242437"
+  id: "2099528066"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_051: 
+  price: "197"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528089"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_049: 
+  price: "120"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242440"
+  id: "2099528087"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_073: 
+  price: "200"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528111"
+  is_master: f
+  sku: SMP-3
+  height: 
+  width: 
+variants_010: 
+  price: "179"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528048"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_008: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528046"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_031: 
+  price: "210"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528069"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_029: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528067"
+  is_master: f
+  sku: WAR-1
+  height: 
+  width: 
+variants_052: 
+  price: "210"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528090"
+  is_master: f
+  sku: WAR-3
+  height: 
+  width: 
+variants_074: 
+  price: "115"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528112"
+  is_master: f
+  sku: SMP-4
+  height: 
+  width: 
+variants_011: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528049"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_009: 
+  price: "160"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528047"
+  is_master: f
+  sku: WAR-2
+  height: 
+  width: 
+variants_032: 
+  price: "125"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528070"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_053: 
+  price: "125"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528091"
+  is_master: f
+  sku: WAR-4
+  height: 
+  width: 
+variants_075: 
+  price: "202"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528113"
+  is_master: f
+  sku: SMP-5
+  height: 
+  width: 
+variants_033: 
+  price: "212"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528071"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_054: 
+  price: "212"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528092"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_076: 
+  price: "215"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528114"
+  is_master: f
+  sku: SMP-6
+  height: 
+  width: 
+variants_055: 
+  price: "225"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528093"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_012: 
+  price: "170"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528050"
+  is_master: f
+  sku: WAR-5
+  height: 
+  width: 
+variants_077: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242444"
+  id: "2099528115"
+  is_master: t
+  sku: SMP
+  height: 
+  width: 
+variants_013: 
+  price: "189"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528051"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_034: 
+  price: "225"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528072"
+  is_master: f
+  sku: WAR-6
+  height: 
+  width: 
+variants_014: 
+  price: "100"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242435"
+  id: "2099528052"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_035: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242438"
+  id: "2099528073"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 
+variants_056: 
+  price: "110"
+  weight: 
+  depth: 
+  deleted_at: 
+  product_id: "2134242441"
+  id: "2099528094"
+  is_master: t
+  sku: WAR
+  height: 
+  width: 

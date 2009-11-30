@@ -1,0 +1,193 @@
+--- 
+products_012: 
+  name: Sample product without diffirent faces
+  permalink: sample-product-without-diffirent-faces--xxl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:28:16
+  tax_category_id: 
+  size: XXL
+  available_on: 2009-11-23 19:27:00
+  deleted_at: 
+  meta_keywords: 
+  faces: ""
+  id: "2134242445"
+  photo_required: f
+  description: 
+  meta_description: 
+  created_at: 2009-11-30 13:28:16
+products_001: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-one-photo-small
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:19:12
+  tax_category_id: 
+  size: Small
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: one photo
+  id: "2134242434"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:19:12
+products_002: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-one-photo-large
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:21:02
+  tax_category_id: 
+  size: Large
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: one photo
+  id: "2134242435"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:21:02
+products_003: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-two-photos-small
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:21:26
+  tax_category_id: 
+  size: Small
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: two photos
+  id: "2134242436"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:21:26
+products_004: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-two-photos-large
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:21:33
+  tax_category_id: 
+  size: Large
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: two photos
+  id: "2134242437"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:21:33
+products_005: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-one-photo-xl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:23:06
+  tax_category_id: 
+  size: XL
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: ""
+  faces: one photo
+  id: "2134242438"
+  photo_required: t
+  description: ""
+  meta_description: ""
+  created_at: 2009-11-30 13:21:46
+products_006: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-one-photo-xxl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:22:02
+  tax_category_id: 
+  size: XXL
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: one photo
+  id: "2134242439"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:22:02
+products_007: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-two-photos-xxl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:22:11
+  tax_category_id: 
+  size: XXL
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: 
+  faces: two photos
+  id: "2134242440"
+  photo_required: t
+  description: ""
+  meta_description: 
+  created_at: 2009-11-30 13:22:11
+products_008: 
+  name: Sample warhole style images
+  permalink: sample-warhole-style-images-two-photos-xl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:23:21
+  tax_category_id: 
+  size: XL
+  available_on: 2009-11-23 19:19:00
+  deleted_at: 
+  meta_keywords: ""
+  faces: two photos
+  id: "2134242441"
+  photo_required: t
+  description: ""
+  meta_description: ""
+  created_at: 2009-11-30 13:22:35
+products_009: 
+  name: Sample product without diffirent faces
+  permalink: sample-product-without-diffirent-faces--small
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:27:51
+  tax_category_id: 
+  size: Small
+  available_on: 2009-11-23 19:27:00
+  deleted_at: 
+  meta_keywords: 
+  faces: ""
+  id: "2134242442"
+  photo_required: f
+  description: 
+  meta_description: 
+  created_at: 2009-11-30 13:27:51
+products_010: 
+  name: Sample product without diffirent faces
+  permalink: sample-product-without-diffirent-faces--large
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:28:00
+  tax_category_id: 
+  size: Large
+  available_on: 2009-11-23 19:27:00
+  deleted_at: 
+  meta_keywords: 
+  faces: ""
+  id: "2134242443"
+  photo_required: f
+  description: 
+  meta_description: 
+  created_at: 2009-11-30 13:28:00
+products_011: 
+  name: Sample product without diffirent faces
+  permalink: sample-product-without-diffirent-faces--xl
+  shipping_category_id: 
+  updated_at: 2009-11-30 13:28:09
+  tax_category_id: 
+  size: XL
+  available_on: 2009-11-23 19:27:00
+  deleted_at: 
+  meta_keywords: 
+  faces: ""
+  id: "2134242444"
+  photo_required: f
+  description: 
+  meta_description: 
+  created_at: 2009-11-30 13:28:09

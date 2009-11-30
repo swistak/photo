@@ -1,0 +1,91 @@
+--- 
+option_values_003: 
+  option_type_id: "2009080943"
+  name: semi-glossy papper
+  updated_at: 2009-11-30 13:07:02
+  id: "2053201815"
+  amount: "0"
+  presentation: Semi-glossy paper
+  position: "1"
+  created_at: 2009-11-30 13:07:02
+option_values_004: 
+  option_type_id: "2009080943"
+  name: canvas
+  updated_at: 2009-11-30 13:07:02
+  id: "2053201816"
+  amount: "10"
+  presentation: Canvas
+  position: "2"
+  created_at: 2009-11-30 13:07:02
+option_values_005: 
+  option_type_id: "2009080944"
+  name: rolled
+  updated_at: 2009-11-30 13:09:46
+  id: "2053201817"
+  amount: "0"
+  presentation: rolled (NOT FRAMED)
+  position: "1"
+  created_at: 2009-11-30 13:09:46
+option_values_006: 
+  option_type_id: "2009080944"
+  name: metalic frame
+  updated_at: 2009-11-30 13:09:46
+  id: "2053201818"
+  amount: "87"
+  presentation: metalic frame
+  position: "2"
+  created_at: 2009-11-30 13:09:46
+option_values_007: 
+  option_type_id: "2009080944"
+  name: black wood frame
+  updated_at: 2009-11-30 13:09:46
+  id: "2053201819"
+  amount: "100"
+  presentation: black wood frame
+  position: "3"
+  created_at: 2009-11-30 13:09:46
+option_values_008: 
+  option_type_id: "2009080945"
+  name: rolled
+  updated_at: 2009-11-30 13:16:34
+  id: "2053201820"
+  amount: "0"
+  presentation: rolled (NOT FRAMED)
+  position: "1"
+  created_at: 2009-11-30 13:16:34
+option_values_010: 
+  option_type_id: "2009080945"
+  name: black wood frame
+  updated_at: 2009-11-30 13:16:34
+  id: "2053201822"
+  amount: "79"
+  presentation: black wood frame
+  position: "3"
+  created_at: 2009-11-30 13:16:34
+option_values_009: 
+  option_type_id: "2009080945"
+  name: metalic frame
+  updated_at: 2009-11-30 13:16:34
+  id: "2053201821"
+  amount: "60"
+  presentation: metalic frame
+  position: "2"
+  created_at: 2009-11-30 13:16:34
+option_values_001: 
+  option_type_id: "2009080942"
+  name: semi-glossy paper
+  updated_at: 2009-11-30 13:06:04
+  id: "2053201813"
+  amount: "0"
+  presentation: Semi-glossy Paper
+  position: "1"
+  created_at: 2009-11-30 13:06:04
+option_values_002: 
+  option_type_id: "2009080942"
+  name: canvas
+  updated_at: 2009-11-30 13:06:04
+  id: "2053201814"
+  amount: "15"
+  presentation: canvas
+  position: "2"
+  created_at: 2009-11-30 13:06:04

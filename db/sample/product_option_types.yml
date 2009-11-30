@@ -1,0 +1,666 @@
+--- 
+product_option_types_086: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:28:00
+  product_id: "2134242443"
+  id: "856797766"
+  position: "3"
+  created_at: 2009-11-30 13:28:00
+product_option_types_023: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:17:23
+  product_id: "2134242419"
+  id: "856797703"
+  position: "6"
+  created_at: 2009-11-18 14:17:23
+product_option_types_044: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797724"
+  position: "3"
+  created_at: 2009-11-30 11:13:49
+product_option_types_065: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:21:46
+  product_id: "2134242438"
+  id: "856797745"
+  position: "2"
+  created_at: 2009-11-30 13:21:46
+product_option_types_002: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-10 10:22:34
+  product_id: "2099527886"
+  id: "856797678"
+  position: "1"
+  created_at: 2009-11-10 10:22:34
+product_option_types_087: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:28:00
+  product_id: "2134242443"
+  id: "856797767"
+  position: "4"
+  created_at: 2009-11-30 13:28:00
+product_option_types_045: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797725"
+  position: "4"
+  created_at: 2009-11-30 11:13:49
+product_option_types_066: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:21:47
+  product_id: "2134242438"
+  id: "856797746"
+  position: "3"
+  created_at: 2009-11-30 13:21:47
+product_option_types_003: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-16 12:21:46
+  product_id: "2134242416"
+  id: "856797683"
+  position: "1"
+  created_at: 2009-11-16 12:21:46
+product_option_types_024: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797704"
+  position: "1"
+  created_at: 2009-11-18 14:26:02
+product_option_types_088: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:28:10
+  product_id: "2134242444"
+  id: "856797768"
+  position: "1"
+  created_at: 2009-11-30 13:28:10
+product_option_types_067: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:21:47
+  product_id: "2134242438"
+  id: "856797747"
+  position: "4"
+  created_at: 2009-11-30 13:21:47
+product_option_types_004: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-16 12:21:53
+  product_id: "2134242416"
+  id: "856797684"
+  position: "2"
+  created_at: 2009-11-16 12:21:53
+product_option_types_025: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797705"
+  position: "2"
+  created_at: 2009-11-18 14:26:02
+product_option_types_046: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797726"
+  position: "5"
+  created_at: 2009-11-30 11:13:49
+product_option_types_090: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:28:10
+  product_id: "2134242444"
+  id: "856797770"
+  position: "3"
+  created_at: 2009-11-30 13:28:10
+product_option_types_089: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:28:10
+  product_id: "2134242444"
+  id: "856797769"
+  position: "2"
+  created_at: 2009-11-30 13:28:10
+product_option_types_068: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:02
+  product_id: "2134242439"
+  id: "856797748"
+  position: "1"
+  created_at: 2009-11-30 13:22:02
+product_option_types_005: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-16 12:22:00
+  product_id: "2134242416"
+  id: "856797685"
+  position: "3"
+  created_at: 2009-11-16 12:22:00
+product_option_types_026: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797706"
+  position: "3"
+  created_at: 2009-11-18 14:26:02
+product_option_types_047: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797727"
+  position: "6"
+  created_at: 2009-11-30 11:13:49
+product_option_types_091: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:28:10
+  product_id: "2134242444"
+  id: "856797771"
+  position: "4"
+  created_at: 2009-11-30 13:28:10
+product_option_types_070: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:02
+  product_id: "2134242439"
+  id: "856797750"
+  position: "3"
+  created_at: 2009-11-30 13:22:02
+product_option_types_069: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:02
+  product_id: "2134242439"
+  id: "856797749"
+  position: "2"
+  created_at: 2009-11-30 13:22:02
+product_option_types_006: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797686"
+  position: "1"
+  created_at: 2009-11-18 12:07:34
+product_option_types_027: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797707"
+  position: "4"
+  created_at: 2009-11-18 14:26:02
+product_option_types_048: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:19:12
+  product_id: "2134242434"
+  id: "856797728"
+  position: "1"
+  created_at: 2009-11-30 13:19:12
+product_option_types_092: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:28:16
+  product_id: "2134242445"
+  id: "856797772"
+  position: "1"
+  created_at: 2009-11-30 13:28:16
+product_option_types_071: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:02
+  product_id: "2134242439"
+  id: "856797751"
+  position: "4"
+  created_at: 2009-11-30 13:22:02
+product_option_types_007: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797687"
+  position: "2"
+  created_at: 2009-11-18 12:07:34
+product_option_types_028: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797708"
+  position: "5"
+  created_at: 2009-11-18 14:26:02
+product_option_types_050: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:19:12
+  product_id: "2134242434"
+  id: "856797730"
+  position: "3"
+  created_at: 2009-11-30 13:19:12
+product_option_types_049: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:19:12
+  product_id: "2134242434"
+  id: "856797729"
+  position: "2"
+  created_at: 2009-11-30 13:19:12
+product_option_types_093: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:28:16
+  product_id: "2134242445"
+  id: "856797773"
+  position: "2"
+  created_at: 2009-11-30 13:28:16
+product_option_types_072: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:11
+  product_id: "2134242440"
+  id: "856797752"
+  position: "1"
+  created_at: 2009-11-30 13:22:11
+product_option_types_008: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797688"
+  position: "3"
+  created_at: 2009-11-18 12:07:34
+product_option_types_030: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 10:59:28
+  product_id: "2134242421"
+  id: "856797710"
+  position: "1"
+  created_at: 2009-11-30 10:59:28
+product_option_types_029: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:26:02
+  product_id: "2134242420"
+  id: "856797709"
+  position: "6"
+  created_at: 2009-11-18 14:26:02
+product_option_types_051: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:19:12
+  product_id: "2134242434"
+  id: "856797731"
+  position: "4"
+  created_at: 2009-11-30 13:19:12
+product_option_types_094: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:28:17
+  product_id: "2134242445"
+  id: "856797774"
+  position: "3"
+  created_at: 2009-11-30 13:28:17
+product_option_types_073: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:11
+  product_id: "2134242440"
+  id: "856797753"
+  position: "2"
+  created_at: 2009-11-30 13:22:11
+product_option_types_010: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797690"
+  position: "5"
+  created_at: 2009-11-18 12:07:34
+product_option_types_009: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797689"
+  position: "4"
+  created_at: 2009-11-18 12:07:34
+product_option_types_031: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 10:59:28
+  product_id: "2134242421"
+  id: "856797711"
+  position: "2"
+  created_at: 2009-11-30 10:59:28
+product_option_types_052: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:02
+  product_id: "2134242435"
+  id: "856797732"
+  position: "1"
+  created_at: 2009-11-30 13:21:02
+product_option_types_095: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:28:17
+  product_id: "2134242445"
+  id: "856797775"
+  position: "4"
+  created_at: 2009-11-30 13:28:17
+product_option_types_074: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:11
+  product_id: "2134242440"
+  id: "856797754"
+  position: "3"
+  created_at: 2009-11-30 13:22:11
+product_option_types_011: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 12:07:34
+  product_id: "2134242417"
+  id: "856797691"
+  position: "6"
+  created_at: 2009-11-18 12:07:34
+product_option_types_032: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 10:59:28
+  product_id: "2134242421"
+  id: "856797712"
+  position: "3"
+  created_at: 2009-11-30 10:59:28
+product_option_types_053: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:02
+  product_id: "2134242435"
+  id: "856797733"
+  position: "2"
+  created_at: 2009-11-30 13:21:02
+product_option_types_075: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:11
+  product_id: "2134242440"
+  id: "856797755"
+  position: "4"
+  created_at: 2009-11-30 13:22:11
+product_option_types_012: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797692"
+  position: "1"
+  created_at: 2009-11-18 14:14:23
+product_option_types_033: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 10:59:29
+  product_id: "2134242421"
+  id: "856797713"
+  position: "4"
+  created_at: 2009-11-30 10:59:29
+product_option_types_054: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:02
+  product_id: "2134242435"
+  id: "856797734"
+  position: "3"
+  created_at: 2009-11-30 13:21:02
+product_option_types_076: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:35
+  product_id: "2134242441"
+  id: "856797756"
+  position: "1"
+  created_at: 2009-11-30 13:22:35
+product_option_types_034: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 10:59:29
+  product_id: "2134242421"
+  id: "856797714"
+  position: "5"
+  created_at: 2009-11-30 10:59:29
+product_option_types_055: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:02
+  product_id: "2134242435"
+  id: "856797735"
+  position: "4"
+  created_at: 2009-11-30 13:21:02
+product_option_types_013: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797693"
+  position: "2"
+  created_at: 2009-11-18 14:14:23
+product_option_types_077: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:35
+  product_id: "2134242441"
+  id: "856797757"
+  position: "2"
+  created_at: 2009-11-30 13:22:35
+product_option_types_056: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:26
+  product_id: "2134242436"
+  id: "856797736"
+  position: "1"
+  created_at: 2009-11-30 13:21:26
+product_option_types_014: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797694"
+  position: "3"
+  created_at: 2009-11-18 14:14:23
+product_option_types_035: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 10:59:29
+  product_id: "2134242421"
+  id: "856797715"
+  position: "6"
+  created_at: 2009-11-30 10:59:29
+product_option_types_078: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:22:35
+  product_id: "2134242441"
+  id: "856797758"
+  position: "3"
+  created_at: 2009-11-30 13:22:35
+product_option_types_015: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797695"
+  position: "4"
+  created_at: 2009-11-18 14:14:23
+product_option_types_036: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797716"
+  position: "1"
+  created_at: 2009-11-30 11:00:15
+product_option_types_057: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:26
+  product_id: "2134242436"
+  id: "856797737"
+  position: "2"
+  created_at: 2009-11-30 13:21:26
+product_option_types_080: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:27:51
+  product_id: "2134242442"
+  id: "856797760"
+  position: "1"
+  created_at: 2009-11-30 13:27:51
+product_option_types_079: 
+  option_type_id: "2009080944"
+  updated_at: 2009-11-30 13:22:35
+  product_id: "2134242441"
+  id: "856797759"
+  position: "4"
+  created_at: 2009-11-30 13:22:35
+product_option_types_016: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797696"
+  position: "5"
+  created_at: 2009-11-18 14:14:23
+product_option_types_037: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797717"
+  position: "2"
+  created_at: 2009-11-30 11:00:15
+product_option_types_058: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:26
+  product_id: "2134242436"
+  id: "856797738"
+  position: "3"
+  created_at: 2009-11-30 13:21:26
+product_option_types_081: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:27:51
+  product_id: "2134242442"
+  id: "856797761"
+  position: "2"
+  created_at: 2009-11-30 13:27:51
+product_option_types_017: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:14:23
+  product_id: "2134242418"
+  id: "856797697"
+  position: "6"
+  created_at: 2009-11-18 14:14:23
+product_option_types_038: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797718"
+  position: "3"
+  created_at: 2009-11-30 11:00:15
+product_option_types_060: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:33
+  product_id: "2134242437"
+  id: "856797740"
+  position: "1"
+  created_at: 2009-11-30 13:21:33
+product_option_types_059: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:26
+  product_id: "2134242436"
+  id: "856797739"
+  position: "4"
+  created_at: 2009-11-30 13:21:26
+product_option_types_082: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:27:51
+  product_id: "2134242442"
+  id: "856797762"
+  position: "3"
+  created_at: 2009-11-30 13:27:51
+product_option_types_018: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:17:22
+  product_id: "2134242419"
+  id: "856797698"
+  position: "1"
+  created_at: 2009-11-18 14:17:22
+product_option_types_040: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797720"
+  position: "5"
+  created_at: 2009-11-30 11:00:15
+product_option_types_039: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797719"
+  position: "4"
+  created_at: 2009-11-30 11:00:15
+product_option_types_061: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:33
+  product_id: "2134242437"
+  id: "856797741"
+  position: "2"
+  created_at: 2009-11-30 13:21:33
+product_option_types_083: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:27:51
+  product_id: "2134242442"
+  id: "856797763"
+  position: "4"
+  created_at: 2009-11-30 13:27:51
+product_option_types_020: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-18 14:17:22
+  product_id: "2134242419"
+  id: "856797700"
+  position: "3"
+  created_at: 2009-11-18 14:17:22
+product_option_types_019: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:17:22
+  product_id: "2134242419"
+  id: "856797699"
+  position: "2"
+  created_at: 2009-11-18 14:17:22
+product_option_types_041: 
+  option_type_id: "2009080939"
+  updated_at: 2009-11-30 11:00:15
+  product_id: "2134242422"
+  id: "856797721"
+  position: "6"
+  created_at: 2009-11-30 11:00:15
+product_option_types_062: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:21:33
+  product_id: "2134242437"
+  id: "856797742"
+  position: "3"
+  created_at: 2009-11-30 13:21:33
+product_option_types_084: 
+  option_type_id: "2009080943"
+  updated_at: 2009-11-30 13:28:00
+  product_id: "2134242443"
+  id: "856797764"
+  position: "1"
+  created_at: 2009-11-30 13:28:00
+product_option_types_021: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-18 14:17:23
+  product_id: "2134242419"
+  id: "856797701"
+  position: "4"
+  created_at: 2009-11-18 14:17:23
+product_option_types_042: 
+  option_type_id: "2009080941"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797722"
+  position: "1"
+  created_at: 2009-11-30 11:13:49
+product_option_types_063: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:21:33
+  product_id: "2134242437"
+  id: "856797743"
+  position: "4"
+  created_at: 2009-11-30 13:21:33
+product_option_types_085: 
+  option_type_id: "2009080945"
+  updated_at: 2009-11-30 13:28:00
+  product_id: "2134242443"
+  id: "856797765"
+  position: "2"
+  created_at: 2009-11-30 13:28:00
+product_option_types_001: 
+  option_type_id: "1716930793"
+  updated_at: 2009-11-10 10:22:34
+  product_id: "2099527886"
+  id: "365858815"
+  position: "2"
+  created_at: 2009-11-10 10:22:34
+product_option_types_022: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-18 14:17:23
+  product_id: "2134242419"
+  id: "856797702"
+  position: "5"
+  created_at: 2009-11-18 14:17:23
+product_option_types_043: 
+  option_type_id: "2009080940"
+  updated_at: 2009-11-30 11:13:49
+  product_id: "2134242424"
+  id: "856797723"
+  position: "2"
+  created_at: 2009-11-30 11:13:49
+product_option_types_064: 
+  option_type_id: "2009080942"
+  updated_at: 2009-11-30 13:21:46
+  product_id: "2134242438"
+  id: "856797744"
+  position: "1"
+  created_at: 2009-11-30 13:21:46
