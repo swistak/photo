@@ -8,3 +8,8 @@ en-US:
   actions:
     create_another: Create. Then create another
   here: Here
+  order_prepay_total: Order design total
+  user_images: Images
+  notes: Notes
+  line_item: Line item
+  upload: Upload

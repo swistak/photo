@@ -18,5 +18,18 @@ class PhotoExtension < Spree::Extension
 
     FileUtils.cp Dir.glob(File.join(base, "public/stylesheets/*.css")), File.join(RAILS_ROOT, "public/stylesheets/")
     FileUtils.cp Dir.glob(File.join(base, "public/javascripts/*.js")), File.join(RAILS_ROOT, "public/javascripts")
+
+    LineItem.class_eval do
+      has_many :order_images, :as => :viewable, :order => :position, :dependent => :destroy
+
+      def description
+        result = variant.product.name
+
+        unless variant.option_values.empty?
+          result +="(" + variant.options_text + ")"
+        end
+        result
+      end
+    end
   end
 end

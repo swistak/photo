@@ -18,9 +18,14 @@
   </div>
   <br />
 
-  <div id="images">
-    You can now add images for your order <%= link_to t('here'), order_images_path(@order, 'user_images') %>
-  </div>
+  <% if @order.line_items(:joins => :product).any?{|li| li.product.photo_required?} %>
+    <div id="images">
+      You can now add images for your order <%= link_to t('here'), order_images_path(@order) %>
+    </div>
+  <% else %>
+    Products you've selected do not require You to provide images.<br />
+    Artist will start workng on previews of your order.
+  <% end %>
   <br />
 
   <%= link_to t('back_to_store'), products_path %>

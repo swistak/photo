@@ -1,4 +1,4 @@
-<% if @image_pack_type == "user_images" || current_user.has_role?('admin') %>
+<% if @object.new_record? || current_user == @object.author_id %>
   <tr>
     <td><%= t("filename") %>:</td>
     <td><%= f.file_field :attachment %></td>
@@ -8,5 +8,9 @@
   <td><%= t("notes") %>:</td>
   <td><%= f.text_area :notes %></td>
 </tr>
+<tr>
+  <td><%= t("line_item") %>:</td>
+  <td><%= f.collection_select :viewable_id, @line_items, :id, :description %></td>
+</tr>
 
-<%= hidden_field_tag :image_pack_id, @image_pack.id %>
+<%= f.hidden_field :viewable_type, :value => 'LineItem' %>

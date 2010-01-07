@@ -1,32 +1,50 @@
-<h1> <%= t(@image_pack_type) %> </h1>
+<h1> Order images </h1>
+
+<% grouped_images = @images.group_by{|i| i.viewable.id} %>
 
 <table class="index">
-  <tr>
-    <th><%= t("thumbnail") %></th>
-    <th><%= t("notes") %></th>
-    <th><%= t("action") %></th>
-  </tr>
-
-  <% @images.each do |image| %>
-    <tr id="<%= dom_id(image) %>">
-      <td><%= link_to(image_tag(image.attachment.url(:small)), image.attachment.url(:original)) %></td>
-      <td><%= image.notes %></td>
-      <td class="actions">
-        <%= link_to_with_icon('edit', t("edit"), edit_order_image_url(@order, @image_pack_type, image)) %>
-        &nbsp;
-        <%= link_to_delete image, {:url => order_image_url(@order, @image_pack_type, image) } %>
-      </td>
+  <thead>
+    <tr>
+      <th><%= t("thumbnail") %></th>
+      <th><%= t("notes") %></th>
+      <th><%= t("action") %></th>
     </tr>
-  <% end %>
+  </thead>
+
+  <% @line_items.each do |item|  %>
+    <tbody>
+      <tr class="line_item_description">
+        <td colspan="3"><%= item.description %></td>
+      </tr>
+
+      <% if grouped_images[item.id] %>
+        <% grouped_images[item.id].each do |image| %>
+          <tr id="<%= dom_id(image) %>" class="<%= image.author_id == @order.user_id ? 'user' : 'artist' %>">
+            <td class="thumbnail"><%= link_to(image_tag(image.attachment.url(:small)), image.attachment.url(:original)) %></td>
+            <td><%= image.notes %></td>
+            <td class="actions">
+              Author: <%= image.author.login %><br /><br />
+              <%= link_to_with_icon('edit', t("edit"), edit_order_image_url(@order, image)) %>
+              &nbsp;
+              <%= link_to_delete image, {:url => order_image_url(@order, image) } %>
+            </td>
+          </tr>
+        <% end %>
+      <% else %>
+        <tr class="no_images">
+          <td colspan="3">This item still doesn't have images uploaded. Please add one!</td>
+        </tr>
+      <% end %>
+    <% end %>
+  </tbody>
 </table>
 
 <div id="images"></div>
 <br />
-<% if @image_pack_type == "user_images" || current_user.has_role?('admin') %>
-  <p>
-    <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order, @image_pack_type), :id => "new_image_link" %>
-  </p>
-<% end %>
+
+<p>
+  <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order), :id => "new_image_link" %>
+</p>
 
 <% content_for :head do %>
 
@@ -39,10 +57,31 @@
         event.preventDefault();
         jQuery(this).hide();
         jQuery.ajax({type: 'GET', url: this.href, data: ({authenticity_token: AUTH_TOKEN}), success: function(r) {
-          jQuery('#images').html(r);
-        } });
+            jQuery('#images').html(r);
+          } });
       });
 
     });
   </script>
 <% end %>
+
+<style type="text/css">
+  .line_item_description td{
+    padding-left: 10px;
+    background-color: #eee;
+    margin-top: 10px;
+  }
+
+  .no_images td {
+    padding-left: 30px;
+    background-color:  #F4B4B4;
+  }
+
+  .user {
+    border: 1px solid #B8E2EF;
+  }
+
+  .artist {
+    border: 1px solid #72FE95;
+  }
+</style>

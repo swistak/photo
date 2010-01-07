@@ -1,0 +1,20 @@
+<% if (other_sizes = @product.other_sizes) && other_sizes.length > 1 %>
+  <form action="/products/show" method="post" class="product_jump">
+    <div>
+      <%= hidden_field_tag "authenticity_token", form_authenticity_token %>
+      <%= label_tag :change_size_id, "Change size" %><br />
+      <%= select_tag("id", options_from_collection_for_select(other_sizes, :permalink, :size, @product.permalink), {:id => "change_size_id"})  %>
+      <%= submit_tag "Change size" %>
+    </div>
+  </form>
+<% end %>
+<% if (other_faces = @product.other_faces) && other_faces.length > 1 %>
+  <form action="/products/show" method="post" class="product_jump">
+    <div>
+      <%= hidden_field_tag "authenticity_token", form_authenticity_token %>
+      <%= label_tag :change_faces_id, "Change faces" %><br />
+      <%= select_tag("id", options_from_collection_for_select(other_faces, :permalink, :faces, @product.permalink), {:id => "change_faces_id"})  %>
+      <%= submit_tag "Change number of different faces" %>
+    </div>
+  </form>
+<% end %>

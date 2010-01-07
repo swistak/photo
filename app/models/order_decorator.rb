@@ -1,12 +1,10 @@
 Order.class_eval do
-  has_one :user_images,  :class_name => "ImagePack", :conditions => {:pack_type => 'user_images'}
-  has_one :previews,     :class_name => "ImagePack", :conditions => {:pack_type => 'preview'}
-
   module ClassMethods
     def send_reminders(lack_of_activity = 7.days)
       all(:conditions => [
-          "orders.updated_at < ? AND state = 'new'", Time.now - lack_of_activity
-      ]).each do |order|
+          "orders.updated_at < ? AND has_user_images = ?",
+          Time.now - lack_of_activity, false
+        ]).each do |order|
         OrderMailer.deliver_upload_reminder(order)  
       end
     end
@@ -25,14 +23,32 @@ Order.class_eval do
     after_transition :to => 'resumed', :do => :restore_state
 
     event :complete do
-      transition :to => 'new', :from => 'in_progress'
+      transition :from => 'in_progress', :to => 'new'
     end
-    event :image_added do
-      transition :from => 'new', :to => 'in_realization'
+
+    event :prepay do
+      transition :from => ['new'], :to => 'prepaid'
     end
-    event :approve do
-      transition :from => 'in_realization', :to => 'approved'
+
+    event :add_preview do
+      transition :from => ['prepaid', 'preview_reejected'], :to => 'preview_available'
     end
+    event :approve_preview do
+      transition :from => ['prepaid', 'preview_available'], :to => 'approved'
+    end
+    event :reeject_preview do
+      transition :from => ['preview_available'], :to => 'preview_reejected'
+    end
+
+    # FInal payment and shipping
+    event :pay do
+      transition :from => ['new', 'prepaid', 'approved'], :to => 'paid'
+    end
+    event :ship do
+      transition :from => ['paid', 'approved'], :to => 'shipped'
+    end
+
+    # Cancelation, return and resume handling
     event :cancel do
       transition :to => 'canceled', :if => :allow_cancel?
     end
@@ -42,11 +58,34 @@ Order.class_eval do
     event :resume do
       transition :to => 'resumed', :from => 'canceled', :if => :allow_resume?
     end
-    event :pay do
-      transition :to => 'paid', :from => ['new', 'approved']
-    end
-    event :ship do
-      transition :to => 'shipped', :from => ['paid', 'approved']
-    end
+  end
+
+  def prepay_total
+    self.line_items.all(:joins => {:variant => :product}).map{|li|
+      li.variant.product.master.price
+    }.sum
+  end
+
+  def has_images_from_user
+    @line_items = line_items(:joins => [:product, :order_images]).select{|li| li.product.photo_required?}
+    @line_items.all?{|li| li.order_images.any?{|oi| oi.author_id == self.user_id}}
+  end
+
+  def check_images
+    @line_items = line_items(:joins => [:product, :order_images]).select{|li| li.product.photo_required?}
+    has_images_from_artist = @line_items.all?{|li| li.order_images.any?{|oi| oi.author_id != self.user_id}}
+
+    update_attribute(:has_user_images, true) if has_images_from_user
+    add_preview! if has_images_from_artist && can_add_preview?
+  end
+
+  def images
+    OrderImage.scoped(:conditions => [
+       "line_items.order_id = ? AND
+        line_items.variant_id = variants.id AND
+        variants.product_id = products.id AND
+        products.photo_required = ?",
+        self.id, true
+      ], :select => 'assets.*', :from => 'assets, line_items, variants, products')
   end
 end

@@ -1,4 +1,6 @@
 class OrderImage < Asset
+  belongs_to :author, :class_name => "User", :foreign_key => "author_id"
+
   has_attached_file :attachment,
                     :styles => { :mini => '48x48>', :small => '100x100>', :medium => '240x240>', :large => '600x600>' },
                     :default_style => :medium,
@@ -29,12 +31,6 @@ class OrderImage < Asset
   end
 
   def after_save
-    if viewable.is_a?(ImagePack)
-      if viewable.pack_type == "previews"
-        OrderMailer.deliver_preview_image_added(viewable.order)
-      elsif viewable.pack_type == "user_images"
-        viewable.order.image_added
-      end
-    end
+    viewable.order.check_images
   end
 end

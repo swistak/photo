@@ -33,9 +33,7 @@
       <td><%= order.user.email if order.user %></td>
       <td><%= number_to_currency order.total %></td>
       <td>
-        <%= link_to t('user_images'), order_images_path(order, 'user_images') %> <br />
-        <%= link_to t('previews'), order_images_path(order, 'previews') %> <br />
-        <%= link_to t('approve'), approve_order_path(order), :method => :post if order.can_approve?%>
+        <%= link_to t('user_images'), order_images_path(order) %> <br />
       </td>
     </tr>
   <% end %>
