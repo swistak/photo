@@ -23,7 +23,7 @@
             <td class="thumbnail"><%= link_to(image_tag(image.attachment.url(:small)), image.attachment.url(:original)) %></td>
             <td><%= image.notes %></td>
             <td class="actions">
-              Author: <%= image.author.login %><br /><br />
+              Author: <%= image.author && image.author.login %><br /><br />
               <%= link_to_with_icon('edit', t("edit"), edit_order_image_url(@order, image)) %>
               &nbsp;
               <%= link_to_delete image, {:url => order_image_url(@order, image) } %>
@@ -43,7 +43,9 @@
 <br />
 
 <p>
-  <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order), :id => "new_image_link" %>
+  <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order), :id => "new_image_link" %> 
+  <%= link_to icon('accept') + ' ' + t("approve_preview"), approve_order_url(@order), :id => "accept_order_link", :method => 'post' if @order.can_approve_preview? %>
+  <%= link_to icon('cross') + ' ' + t("reeject_preview"), reeject_order_url(@order), :id => "reeject_order_link", :method => 'post' if @order.can_reeject_preview? %>
 </p>
 
 <% content_for :head do %>
@@ -83,5 +85,9 @@
 
   .artist {
     border: 1px solid #72FE95;
+  }
+
+  p img {
+    float: none;
   }
 </style>

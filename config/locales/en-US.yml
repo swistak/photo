@@ -13,3 +13,9 @@ en-US:
   notes: Notes
   line_item: Line item
   upload: Upload
+  design_price: Design price
+  final_price: Final price
+  design_total: Total design price
+  final_total: Total final price
+  approve_preview: Approve preview
+  reeject_preview: Reeject preview
