@@ -21,6 +21,7 @@ Order.class_eval do
     after_transition :to => 'canceled', :do => :cancel_order
     after_transition :to => 'returned', :do => :restock_inventory
     after_transition :to => 'resumed', :do => :restore_state
+    after_transition :to => 'paid', :do => :after_order_paid
 
     event :complete do
       transition :from => 'in_progress', :to => 'new'
@@ -75,13 +76,16 @@ Order.class_eval do
     @line_items = line_items(:joins => [:product, :order_images]).select{|li| li.product.photo_required?}
     has_images_from_artist = @line_items.all?{|li| li.order_images.any?{|oi| oi.author_id != self.user_id}}
 
-    update_attribute(:has_user_images, true) if has_images_from_user
+    if has_images_from_user && !self.has_user_images
+      update_attribute(:has_user_images, true)
+      OrderMailer.deliver_ready_for_processing(self)
+    end
     add_preview! if has_images_from_artist && can_add_preview?
   end
 
   def images
     OrderImage.scoped(:conditions => [
-       "line_items.order_id = ? AND
+        "line_items.order_id = ? AND
         line_items.variant_id = variants.id AND
         variants.product_id = products.id AND
         products.photo_required = ?",
@@ -95,5 +99,9 @@ Order.class_eval do
 
   def needs_images?
     line_items(:joins => :product).any?{|li| li.product.photo_required?}
+  end
+
+  def after_order_paid
+    OrderMailer.deliver_ready_for_fulfillment(self)
   end
 end

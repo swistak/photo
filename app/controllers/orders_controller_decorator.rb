@@ -1,6 +1,7 @@
 OrdersController.class_eval do
   def approve
     @checkout = @order.checkout
+    @order.approve_preview
 
     if request.post? && params[:creditcard]
       cc = Creditcard.new(params[:creditcard].merge(:address => @checkout.bill_address, :checkout => @checkout))
