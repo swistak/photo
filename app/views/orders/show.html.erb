@@ -1,6 +1,8 @@
 <div id="order">
   <%= link_to t('back_to_store'), products_path %>
 
+
+
   <% if params.has_key? :checkout_complete %>
     <br /><br />
 
@@ -13,20 +15,24 @@
   <% end %>
   <br /><br />
 
+  <h3>Order state: <em><%= t(@order.state) %></em></h3>
+
   <div id="order_details">
     <%= render :partial => 'shared/order_details', :locals => {:order => @order} -%>
   </div>
   <br />
 
-  <% if @order.line_items(:joins => :product).any?{|li| li.product.photo_required?} %>
-    <div id="images">
-      You can now add images for your order <%= link_to t('here'), order_images_path(@order) %>
-    </div>
-  <% else %>
-    Products you've selected do not require You to provide images.<br />
-    Artist will start workng on previews of your order.
+  <% if @order.can_add_images? %>
+    <% if @order.needs_images? %>
+      <div id="images">
+        You can now add images for your order <%= link_to t('here'), order_images_path(@order) %>
+      </div>
+    <% else %>
+      Products you've selected do not require You to provide images.<br />
+      Artist will start workng on previews of your order.
+    <% end %>
+    <br />
   <% end %>
-  <br />
 
   <%= link_to t('back_to_store'), products_path %>
 </div>

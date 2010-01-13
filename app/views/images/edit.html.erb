@@ -1,6 +1,11 @@
+<%= link_to t('my_account'), user_path(current_user) if current_user %> |
+<%= link_to t('order'), order_path(@order) %> |
+<%= link_to t('images'), order_images_path(@order) %>
+<br /><br />
+
 <%= error_messages_for :image %>
 
-<% form_for(:image, :url => order_image_path(@order, @image_pack_type, @image), :html => { :method => :put, :multipart => true }) do |f| %>
+<% form_for(:image, :url => order_image_path(@order, @image), :html => { :method => :put, :multipart => true }) do |f| %>
   <table class="basic-table">
     <tr>
       <td><%= t("thumbnail") %>:</td>
@@ -10,6 +15,6 @@
   </table>
   <p class="form-buttons">
     <%= button t("upload") %>
-    or <%= link_to t("cancel"), order_images_path(@order, @image_pack_type), :id => "cancel_link" %>
+    or <%= link_to t("cancel"), order_images_path(@order), :id => "cancel_link" %>
   </p>
 <% end %>

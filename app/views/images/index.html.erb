@@ -1,3 +1,8 @@
+<%= link_to t('my_account'), user_path(current_user) if current_user %> |
+<%= link_to t('order'), order_path(@order) %> |
+<%= link_to t('images'), order_images_path(@order) %>
+<br /><br />
+
 <h1> Order images </h1>
 
 <% grouped_images = @images.group_by{|i| i.viewable.id} %>
@@ -44,7 +49,7 @@
 
 <p>
   <%= link_to icon('add') + ' ' + t("new_image"), new_order_image_url(@order), :id => "new_image_link" %> 
-  <%= link_to icon('accept') + ' ' + t("approve_preview"), approve_order_url(@order), :id => "accept_order_link", :method => 'post' if @order.can_approve_preview? %>
+  <%= link_to icon('accept') + ' ' + t("approve_preview"), approve_order_url(@order), :id => "accept_order_link" if @order.can_approve_preview? %>
   <%= link_to icon('cross') + ' ' + t("reeject_preview"), reeject_order_url(@order), :id => "reeject_order_link", :method => 'post' if @order.can_reeject_preview? %>
 </p>
 

@@ -34,7 +34,7 @@ Order.class_eval do
       transition :from => ['prepaid', 'preview_reejected'], :to => 'preview_available'
     end
     event :approve_preview do
-      transition :from => ['prepaid', 'preview_available'], :to => 'approved'
+      transition :from => ['preview_available'], :to => 'approved'
     end
     event :reeject_preview do
       transition :from => ['preview_available'], :to => 'preview_reejected'
@@ -87,5 +87,13 @@ Order.class_eval do
         products.photo_required = ?",
         self.id, true
       ], :select => 'assets.*', :from => 'assets, line_items, variants, products')
+  end
+
+  def can_add_images?
+    ['prepaid', 'new', 'preview_reejected', 'preview_available'].include? state
+  end
+
+  def needs_images?
+    line_items(:joins => :product).any?{|li| li.product.photo_required?}
   end
 end
