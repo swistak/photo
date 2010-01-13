@@ -28,6 +28,7 @@
             <td class="thumbnail"><%= link_to(image_tag(image.attachment.url(:small)), image.attachment.url(:original)) %></td>
             <td><%= image.notes %></td>
             <td class="actions">
+              Submited by: <em><%= image.author_id == @order.user_id ? 'user' : 'artist' %></em><br />
               Author: <%= image.author && image.author.login %><br /><br />
               <%= link_to_with_icon('edit', t("edit"), edit_order_image_url(@order, image)) %>
               &nbsp;
@@ -85,11 +86,11 @@
   }
 
   .user {
-    border: 1px solid #B8E2EF;
+    background-color: #B8E2EF;
   }
 
   .artist {
-    border: 1px solid #72FE95;
+    background-color: #72FE95;
   }
 
   p img {
