@@ -30,6 +30,15 @@ class OrderMailer < ActionMailer::Base
       @sent_on    = Time.now
     end
   end
+
+  def upload_remonder(order)
+    @subject    = "#{Spree::Config[:site_name]}: [#{I18n.t(:upload_reminder)}] ##{order.number}"
+      @body       = {"order" => order}
+      @recipients = order_email(order)
+      @from       = Spree::Config[:order_from]
+      @bcc        = order_bcc
+      @sent_on    = Time.now
+  end
   
   private
   def order_email(order)
